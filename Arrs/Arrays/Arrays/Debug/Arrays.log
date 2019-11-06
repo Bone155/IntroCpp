@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\s199010\source\repos\introtocpp\arrs\arrays\arrays\main.cpp(3): warning C4326: return type of 'main' should be 'int' instead of 'void'
+c:\users\s199010\source\repos\introtocpp\arrs\arrays\arrays\main.cpp(20): warning C4553: '==': result of expression not used; did you intend '='?
+  Arrays.vcxproj -> C:\Users\s199010\source\repos\IntroToCpp\Arrs\Arrays\Debug\Arrays.exe
