@@ -1,0 +1,7 @@
+﻿  main.cpp
+c:\users\s199010\source\repos\introtocpp\memory\pointermemory\pointermemory\main.cpp(16): warning C4018: '<': signed/unsigned mismatch
+c:\users\s199010\source\repos\introtocpp\memory\pointermemory\pointermemory\main.cpp(125): warning C4018: '<': signed/unsigned mismatch
+c:\users\s199010\source\repos\introtocpp\memory\pointermemory\pointermemory\main.cpp(127): warning C4018: '<': signed/unsigned mismatch
+c:\users\s199010\source\repos\introtocpp\memory\pointermemory\pointermemory\main.cpp(150): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\s199010\source\repos\introtocpp\memory\pointermemory\pointermemory\main.cpp(161): warning C4018: '<': signed/unsigned mismatch
+  PointerMemory.vcxproj -> C:\Users\s199010\source\repos\IntroToCpp\Memory\PointerMemory\Debug\PointerMemory.exe

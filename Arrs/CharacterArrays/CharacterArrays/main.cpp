@@ -69,7 +69,7 @@ void exercises() {
 	}
 	cout << endl;
 
-	cout << "Enter name and a password" << endl << "At least 8 characters long, contains at least one capital letter, one number and one symbol" << endl;
+	/*cout << "Enter name and a password" << endl << "At least 8 characters long, contains at least one capital letter, one number and one symbol" << endl;
 	cin.getline(input, 30);
 	cin.getline(password, 30);
 	for (int i = 0; i < strlen(password); i++) {
@@ -85,7 +85,7 @@ void exercises() {
 		if (password[i] != "") {
 
 		}
-	}
+	}*/
 
 }
 
