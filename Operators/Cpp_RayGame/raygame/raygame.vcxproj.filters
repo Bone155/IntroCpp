@@ -1,0 +1,662 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyHero.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Potion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyColor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyHero.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Potion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyColor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\bow_02e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\bow_03c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\bow_03d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\bow_03e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\coin_01a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\coin_01b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\coin_01c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\coin_01d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\coin_01e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\coin_02a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\coin_02b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\coin_02c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\coin_02d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\coin_02e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\coin_03a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\coin_03b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\coin_03c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\coin_03d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\coin_03e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\coin_04a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\coin_04b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\coin_04c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\coin_04d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\coin_04e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\coin_05a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\coin_05b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\coin_05c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\coin_05d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\coin_05e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\crystal_01a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\crystal_01b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\crystal_01c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\crystal_01d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\crystal_01e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\crystal_01f.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\crystal_01g.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\crystal_01h.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\crystal_01i.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\crystal_01j.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\gem_01a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\gem_01b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\gem_01c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\gem_01d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\gem_01e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\gem_01f.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\gem_01g.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\gem_01h.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\gem_01i.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\gem_01j.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\gift_01a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\gift_01b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\gift_01c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\gift_01d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\gift_01e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\gift_01f.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\helmet_01a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\helmet_01b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\helmet_01c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\helmet_01d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\helmet_01e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\helmet_02a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\helmet_02b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\helmet_02c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\helmet_02d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\helmet_02e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\key_01a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\key_01b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\key_01c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\key_01d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\key_01e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\key_02a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\key_02b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\key_02c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\key_02d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\key_02e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\necklace_01a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\necklace_01b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\necklace_01c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\necklace_01d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\necklace_01e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\necklace_02a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\necklace_02b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\necklace_02c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\necklace_02d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\necklace_02e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\necklace_03a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\necklace_03b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\necklace_03c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\necklace_03d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\necklace_03e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\pearl_01a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\pearl_01b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\pearl_01c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\pearl_01d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\pearl_01e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\potion_01a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\potion_01b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\potion_01c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\potion_01d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\potion_01e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\potion_01f.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\potion_01g.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\potion_01h.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\potion_02a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\potion_02b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\potion_02c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\potion_02d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\potion_02e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\potion_02f.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\potion_02g.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\potion_02h.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\potion_03a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\potion_03b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\potion_03c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\potion_03d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\potion_03e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\potion_03f.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\potion_03g.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\potion_03h.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\ring_01a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\ring_01b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\ring_01c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\ring_01d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\ring_01e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\ring_02a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\ring_02b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\ring_02c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\ring_02d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\ring_02e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\ring_03a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\ring_03b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\ring_03c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\ring_03d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\ring_03e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\scroll_01a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\scroll_01b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\scroll_01c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\scroll_01d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\scroll_01e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\scroll_01f.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\scroll_01g.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\scroll_01h.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\shield_01a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\shield_01b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\shield_01c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\shield_01d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\shield_01e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\shield_02a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\shield_02b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\shield_02c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\shield_02d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\shield_02e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\shield_03a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\shield_03b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\shield_03c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\shield_03d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\shield_03e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\spellbook_01a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\spellbook_01b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\spellbook_01c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\spellbook_01d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\spellbook_01e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\spellbook_02a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\spellbook_02b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\spellbook_02c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\spellbook_02d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\spellbook_02e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\spellbook_03a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\spellbook_03b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\spellbook_03c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\spellbook_03d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\spellbook_03e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\staff_01a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\staff_01b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\staff_01c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\staff_01d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\staff_01e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\staff_02ab.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\staff_02b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\staff_02c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\staff_02d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\staff_02e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\staff_03a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\staff_03b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\staff_03c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\staff_03d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\staff_03e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\sword_01a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\sword_01b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\sword_01c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\sword_01d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\sword_01e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\sword_02a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\sword_02b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\sword_02c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\sword_02d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\sword_02e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\sword_03a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\sword_03b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\sword_03c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\sword_03d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Kyrise%27s 16x16 RPG Icon Pack - V1.2\icons\32x32\sword_03e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
