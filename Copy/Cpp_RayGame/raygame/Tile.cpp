@@ -3,14 +3,14 @@
 
 Tile::Tile(string imageFilename)
 {
-	Background = LoadTexture("mapPack_tilesheet.png");
+	Image img = LoadImage(reinterpret_cast<char*>(&imageFilename));
+	Background = LoadTextureFromImage(img);
 	tint = BLUE;
 }
 
 Tile::Tile()
 {
 }
-
 
 Tile::~Tile()
 {

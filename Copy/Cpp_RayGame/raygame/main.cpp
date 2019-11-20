@@ -19,9 +19,9 @@ int main()
 	int screenWidth = 800;
 	int screenHeight = 450;
 
-	Tile tile;
+	Tile tile = { "mapPack_tilesheet.png" };
 
-	InitWindow(screenWidth, screenHeight, "raylib [core] example - basic window");
+	InitWindow(screenWidth, screenHeight, "Tiles");
 
 	SetTargetFPS(60);
 	//--------------------------------------------------------------------------------------
@@ -40,9 +40,7 @@ int main()
 
 		ClearBackground(RAYWHITE);
 
-		DrawTexture(tile.Background, screenWidth, screenHeight, tile.tint);
-
-		DrawText("Tiles", 190, 200, 20, LIGHTGRAY);
+		DrawTexture(tile.Background, 400, 225, tile.tint);
 
 		EndDrawing();
 		//----------------------------------------------------------------------------------
