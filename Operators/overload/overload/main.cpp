@@ -2,7 +2,8 @@
 #include <windows.h>
 #include <chrono>
 #include <thread>
-#include "Point2D.h"
+#include "Point2D.h"
+
 using namespace std;
 
 const char * CSI = "\x1b[";
@@ -28,7 +29,8 @@ bool enableVirtualTerminal() {
 	}
 	// setup window width/height
 	cout << CSI << "?3h";// Sets the console width to 132 columns wide.
-	return true;
+	return true;
+
 }
 
 void drawCourt() {
@@ -105,7 +107,8 @@ void main() {
 		{
 			std::this_thread::sleep_for(std::chrono::milliseconds(30));
 			currentTime = std::chrono::system_clock::now();
-		}
+		}
+
 	}
 
 }
